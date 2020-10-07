@@ -25,7 +25,7 @@ const AddToDo: FC<IProps> = ({ addTodo }) => {
         type="text"
         onChange={handleChange}
         placeholder="Enter a todo task"
-        value={todo==null?"":todo.content} //This is required to clear the text after submit/task entry in to the list.
+        value={todo===null?"":todo.content} //This is required to clear the text after submit/task entry in to the list.
       />
     </form>
   );
