@@ -1,2 +1,4 @@
 # Basic react to do app.
-### Contains no backend. 
+### Learnings:
+#### Forms
+#### component rendering onChange event.
